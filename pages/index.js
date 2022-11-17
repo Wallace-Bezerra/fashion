@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Header from "../src/components/header/Header"
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import HomeCard from '../src/components/homeCard/HomeCard'
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       </Head>
 
       <Header />
+      <HomeCard/>
       <main className={styles.main}>
         ola mundo
       </main>

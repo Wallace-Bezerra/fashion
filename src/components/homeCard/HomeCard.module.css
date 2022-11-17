@@ -1,0 +1,59 @@
+.homeCard {
+  background: #f4f6f5;
+  border-radius: 59px;
+  position: relative;
+
+  z-index: 0;
+  display: flex;
+}
+.titleInfo {
+  padding-left: 119px;
+  padding-top: 77px;
+  padding-bottom: 90px;
+}
+
+.titleHome {
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 120px;
+  width: 474px;
+  height: 473px;
+  margin-bottom: 40px;
+  /* position: relative; */
+}
+.titleHome::after {
+  content: "";
+  position: absolute;
+  width: 464.74px;
+  height: 112.14px;
+  left: 82px;
+  top: 68px;
+  z-index: -1;
+  background: white;
+  transform: rotate(-2deg);
+}
+.titleHome::before {
+  content: "";
+  position: absolute;
+  width: 495.79px;
+  height: 117.55px;
+  left: 93.52px;
+  top: 314px;
+  z-index: -1;
+
+  background: #ebd96b;
+  transform: rotate(-2deg);
+}
+
+.p {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 48px;
+  letter-spacing: -0.05em;
+
+  color: #191818;
+  margin-bottom: 32px;
+}
+
+.cardImage {
+}

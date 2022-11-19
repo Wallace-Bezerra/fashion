@@ -7,8 +7,8 @@
     border: none;
     color: #fefefe;
     font-weight: 500;
-    font-size: 24px;
-    line-height: 36px;
+    font-size: 20px;
+    line-height: 21px;
     letter-spacing: -0.03em;
     cursor: pointer;
     font-family: "Poppins", sans-serif;
@@ -17,4 +17,13 @@
 
 .btn:hover {
     transform: scale(1.1);
+}
+
+@media (max-width:1298px) {
+    .btn {
+        /* padding: 7px 12px; */
+        font-size: 20px;
+        line-height: 21px;
+        letter-spacing: -0.03em;
+    }
 }

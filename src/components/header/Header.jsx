@@ -23,6 +23,9 @@ function Header() {
           </li>
         </ul>
         <Button text="SIGN UP" />
+        <div className={styles.btnMobile}>
+          <img src="./mobile-icon.svg" alt="" />
+        </div>
       </nav>
     </header>
   );

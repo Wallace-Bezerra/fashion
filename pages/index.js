@@ -3,6 +3,7 @@ import Header from "../src/components/header/Header"
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import HomeCard from '../src/components/homeCard/HomeCard'
+import Logos from '../src/components/logos/Logos'
 
 export default function Home() {
   return (
@@ -17,9 +18,9 @@ export default function Home() {
       </Head>
 
       <Header />
-      <HomeCard/>
+      <HomeCard />
       <main className={styles.main}>
-        ola mundo
+        <Logos></Logos>
       </main>
 
     </div>

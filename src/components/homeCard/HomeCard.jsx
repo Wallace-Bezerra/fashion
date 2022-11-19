@@ -7,7 +7,7 @@ function HomeCard() {
       <div className={styles.titleInfo}>
         <h1 className={styles.titleHome}>LET’S EXPLORE UNIQUE CLOTHES.</h1>
         <p className={styles.p}>Live for Influential and Innovative fashion!</p>
-        <div style={{ display: "flex", gap: "34px" }}>
+        <div className={styles.btnContent}>
           <img src="./element.svg" alt="" />
           <Button text="Shop Now" />
         </div>

@@ -4,6 +4,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import HomeCard from '../src/components/homeCard/HomeCard'
 import Logos from '../src/components/logos/Logos'
+import NewArrivals from '../src/components/newArrivals/newArrivals'
 
 export default function Home() {
   return (
@@ -19,10 +20,8 @@ export default function Home() {
 
       <Header />
       <HomeCard />
-      <main className={styles.main}>
-        <Logos></Logos>
-      </main>
-
+      <Logos></Logos>
+      <NewArrivals />
     </div>
   )
 }

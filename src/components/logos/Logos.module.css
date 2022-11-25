@@ -5,6 +5,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-block: 12px;
+    margin-top: 4rem;
 }
 
 .logos ul {
@@ -13,4 +15,19 @@
     justify-content: center;
     align-items: center;
     gap: 0 60px;
+}
+
+.logos ul li img {
+    transition: all .4s;
+    cursor: pointer;
+}
+
+.logos ul li img:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width:1180px) {
+    .logos {
+        margin-top: 0;
+    }
 }

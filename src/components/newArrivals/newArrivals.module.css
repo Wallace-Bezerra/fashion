@@ -1,0 +1,24 @@
+.newArrivals {
+    margin-top: 56px;
+    margin-inline: 62.5px;
+}
+
+.h2 {
+    font-weight: 900;
+    font-size: 34.15px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    position: relative;
+    display: inline;
+}
+
+.h2::after {
+    content: "";
+    background-image: url("/elementTitle.svg");
+    width: 132.33px;
+    height: 24.85px;
+    z-index: -1;
+    position: absolute;
+    top: 16.36px;
+    right: -4.98px;
+}
